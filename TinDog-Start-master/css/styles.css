@@ -1,0 +1,191 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 13% 11%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Headings */
+
+.big-heading {
+  line-height: 1.5;
+  size: 4rem;
+  font-weight: 900;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.row {
+  margin-top: 110px;
+}
+
+ .row button {
+  margin-right: 15px;
+}
+
+ .title-img {
+  width: 25%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features section */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  transition: color 0.4s ease;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.features-text {
+  color: #8f8f8f;
+}
+
+/* Color Section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: black;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 12%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+
+.press-logo {
+  width: 17%;
+  margin: 10px 20px 50px;
+}
+
+/* Pricing section*/
+
+#pricing {
+  font-family: "Montsterrat", sans-serif;
+  padding: 100px;
+}
+
+.card-title {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 2% 0;
+}
+
+#pricing .title-pricing h2 {
+  font-weight: 900;
+}
+
+#pricing .title-pricing p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #9e9e9e;
+}
+
+#pricing .card-header {
+  padding: 12px;
+}
+
+#pricing .card-body {
+  padding-top: 15px;
+}
+
+#pricing .link-hover:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+/* CTA section*/
+
+#cta {
+  padding: 11% 10%;
+}
+
+#cta h3 {
+  font-weight: 700;
+  font-size: 4rem;
+  padding: 0 4%;
+}
+
+#cta button {
+  margin-left: 10px;
+}
+
+#footer {
+  padding: 6% 10% 2%;
+}
+
+#footer p {
+  color: #8f8f8f;
+  margin-top: 20px;
+}
+
+#footer .sosmed-icon {
+  width: 6%;
+}
