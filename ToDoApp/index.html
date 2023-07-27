@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link rel="stylesheet" href="style.css">
+	<title>To Do App</title>
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="task-input">
+			<img src="img/bars-icon.svg" alt="">
+			<label>
+				<input placeholder="Add new task" type="text">
+			</label>
+		</div>
+
+		<div class="control">
+			<div class="filters">
+				<span id="all" class="active">
+					All
+				</span>
+				<span id="pending">Pending</span>
+				<span id="completed">Completed</span>
+			</div>
+			<button class="clear-btn">Clear all button</button>
+		</div>
+		<ul class="task-box"></ul>
+	</div>
+
+	<script src="_index.js"></script>
+</body>
+</html>
